@@ -38,85 +38,94 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
+        div#img{
+            margin: auto;
+        }
     </style>
     <link rel="shurtcut icon" href="./clienticon.ico">
 </head>
 
 <body style="background-color: rgba(19, 19, 19, 0.938);">
-    <div style="display: flex;
-    flex-direction: row-reverse;">
+    <div style="display: flex;">
+        <div>
+        <img style="width: 50px;
+        margin-top: 3px;" src="./clienticon.ico" alt="logo">
+        </div>
         <div style="display: flex;
-    background-color: darkorange;
-    margin-top: 3px;
-    margin-right: 5px;">
-            <ul style="display: flex">
-                <li class="dhlbk">
-                    <a href="./index.html">
-                        <div class="dropdown">
-                            <p>
-                                首页
-                            </p>
-                        </div>
-                    </a>
-                    <div style="background-color: yellow;
-                    height: 3px;"></div>
-                </li>
-                <li class="dhlbk">
-                    <a href="./download.html">
-                        <div class="dropdown">
-                            <p>
-                                下载
-                            </p>
-                            <div class="dropdown-content" style="background-color:  rgba(56, 53, 53, 0.774);;">
-                                <a style="color: white;"
-                                    href="https://ghproxy.com/https://github.com/Reunion-2023/Reunion2023/releases/download/1.4.13/202307061505-1.4.13-Basic.exe">
-                                    基础版下载
-                                </a>
-                                <br>
-                                <a style="color: white;" href="https://ru2023.sasw.top/download.html">
-                                    扩展版下载
-                                </a>
-                                <br>
-                                <a style="color: white;"
-                                    href="https://ghproxy.com/https://github.com/Reunion-2023/Reunion2023/releases/download/1.4.13/202307061427-1213Update.7z">
-                                    更新包下载
-                                </a>
-                                <br>
-                                <a style="color: white;" href="./network.html">
-                                    云盘下载
-                                </a>
+        flex-direction: row-reverse;">
+            <div style="display: flex;
+            background-color: darkorange;
+            margin-top: 3px;
+            margin-right: 5px;">
+                <ul style="display: flex">
+                    <li class="dhlbk">
+                        <a href="./index.html">
+                            <div class="dropdown">
+                                <p>
+                                    首页
+                                </p>
                             </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="dhlbk">
-                    <a href="./uplog.html">
-                        <div>
-                            <p>
-                                更新日志
-                            </p>
-                        </div>
-                    </a>
-                </li>
-                <li class="dhlbk">
-                    <a href="https://ru2023.sasw.top/">
-                        <div>
-                            <p>
-                                其他官网
-                            </p>
-                        </div>
-                    </a>
-                </li>
-                <li class="dhlbk">
-                    <a href="./contact.html">
-                        <div style="height: 22px;">
-                            <p>
-                                联系我们
-                            </p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+                        </a>
+                        <div style="background-color: yellow;
+                    height: 3px;"></div>
+                    </li>
+                    <li class="dhlbk">
+                        <a href="./download.html">
+                            <div class="dropdown">
+                                <p>
+                                    下载
+                                </p>
+                                <div class="dropdown-content" style="background-color:  rgba(56, 53, 53, 0.774);;">
+                                    <a style="color: white;"
+                                        href="https://ghproxy.com/https://github.com/Reunion-2023/Reunion2023/releases/download/1.4.13/202307061505-1.4.13-Basic.exe">
+                                        基础版下载
+                                    </a>
+                                    <br>
+                                    <a style="color: white;" href="https://ru2023.sasw.top/download.html">
+                                        扩展版下载
+                                    </a>
+                                    <br>
+                                    <a style="color: white;"
+                                        href="https://ghproxy.com/https://github.com/Reunion-2023/Reunion2023/releases/download/1.4.13/202307061427-1213Update.7z">
+                                        更新包下载
+                                    </a>
+                                    <br>
+                                    <a style="color: white;" href="./network.html">
+                                        云盘下载
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="dhlbk">
+                        <a href="./uplog.html">
+                            <div>
+                                <p>
+                                    更新日志
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="dhlbk">
+                        <a href="https://ru2023.sasw.top/">
+                            <div>
+                                <p>
+                                    其他官网
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="dhlbk">
+                        <a href="./contact.html">
+                            <div style="height: 22px;">
+                                <p>
+                                    联系我们
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div style="display: flex;
@@ -128,7 +137,8 @@
     </div>
     <div style="display: flex;
     flex-direction: column;
-    align-items: center;">
+    align-items: center;
+    margin-top: 25px;">
         <div style="background-color: blueviolet;
     width: 70px;" align="center">
             <a href="./download.html">
@@ -139,134 +149,141 @@
         </div>
     </div>
     <div style="background-color: rgb(46, 46, 46);
+        margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 15px;
+    margin-top: 25px;">
+        <div style="
     display: flex;
     flex-direction: column;
     align-items: center;">
-        <div style="display: flex;
-            padding: 5px;">
             <div style="display: flex;
+            padding: 5px;">
+                <div style="display: flex;
                 flex-direction: column;
                 margin: 15px;">
-                <h1 class="fontcolor">
-                    全新的界面
-                </h1>
-                <span class="fontcolor">
-                    更新的界面
-                </span>
-            </div>
-            <div>
-                <img src="./Image/index1.jpg" alt="jiemian" style="display: flex;
+                    <h1 class="fontcolor">
+                        全新的界面
+                    </h1>
+                    <span class="fontcolor">
+                        更新的界面
+                    </span>
+                </div>
+                <div>
+                    <img src="./Image/index1.jpg" alt="jiemian" style="display: flex;
                     width: 560px;
                     margin: 15px;">
+                </div>
             </div>
         </div>
-    </div>
-    <div style="background-color: rgb(46, 46, 46);
+        <div style="
     display: flex;
     flex-direction: column;
     align-items: center;">
-        <div style="display: flex;
+            <div style="display: flex;
     padding: 5px;">
-            <div>
-                <img src="./Image/index2.jpg" alt="renwu" style="display: flex;
+                <div>
+                    <img src="./Image/index2.jpg" alt="renwu" style="display: flex;
         width: 560px;
         margin: 15px;">
-            </div>
-            <div style="display: flex;
+                </div>
+                <div style="display: flex;
         flex-direction: column;
         margin: 15px;">
-                <h1 class="fontcolor">
-                    更多的任务
-                </h1>
-                <span class="fontcolor">
-                    直通任何任务
-                </span>
+                    <h1 class="fontcolor">
+                        更多的任务
+                    </h1>
+                    <span class="fontcolor">
+                        直通任何任务
+                    </span>
+                </div>
             </div>
         </div>
-    </div>
-    <div style="background-color: rgb(46, 46, 46);
-display: flex;
-flex-direction: column;
-align-items: center;">
-        <div style="display: flex;
-padding: 5px;">
+        <div style="
+    display: flex;
+    flex-direction: column;
+    -items: center;">
             <div style="display: flex;
+        padding: 5px;">
+                <div style="display: flex;
             flex-direction: column;
             margin: 15px;">
-                <h1 class="fontcolor">
-                    更全面简洁的设置
-                </h1>
-                <span class="fontcolor">
-                    更全面的设置，让游戏更适合你自己
-                </span>
-            </div>
-            <div>
-                <img src="./Image/index3.jpg" alt="renwu" style="display: flex;
+                    <h1 class="fontcolor">
+                        更全面简洁的设置
+                    </h1>
+                    <span class="fontcolor">
+                        更全面的设置，让游戏更适合你自己
+                    </span>
+                </div>
+                <div>
+                    <img src="./Image/index3.jpg" alt="renwu" style="display: flex;
     width: 560px;
     margin: 15px;">
+                </div>
             </div>
         </div>
-    </div>
-    <div style="background-color: rgb(46, 46, 46);
+        <div style="
     display: flex;
     flex-direction: column;
     align-items: center;">
-        <div style="display: flex;
+            <div style="display: flex;
     padding: 5px;">
-            <div>
-                <img src="./Image/index4.jpg" alt="zaoyuzhan" style="display: flex;
+                <div>
+                    <img src="./Image/index4.jpg" alt="zaoyuzhan" style="display: flex;
             width: 560px;
             margin: 15px;">
-            </div>
-            <div style="display: flex;
+                </div>
+                <div style="display: flex;
             flex-direction: column;
             margin: 15px;">
-                <h1 class="fontcolor">
-                    更多模式，更多地图，更全面的游戏设置
-                </h1>
-                <span class="fontcolor">
-                    在你的想象中设置游戏
-                </span>
+                    <h1 class="fontcolor">
+                        更多模式，更多地图，更全面的游戏设置
+                    </h1>
+                    <span class="fontcolor">
+                        在你的想象中设置游戏
+                    </span>
+                </div>
             </div>
         </div>
-    </div>
-    <div style="background-color: rgb(46, 46, 46);
+        <div style="
     display: flex;
     flex-direction: column;
     align-items: center;">
-        <div style="display: flex;
-    padding: 5px;">
             <div style="display: flex;
+    padding: 5px;">
+                <div style="display: flex;
             flex-direction: column;
             margin: 15px;">
-                <h1 class="fontcolor">
-                    更完美的联机服务
-                </h1>
-                <span class="fontcolor">
-                    用技术征服世界
-                </span>
-            </div>
-            <div>
-                <img src="./Image/index5.jpg" alt="lianji" style="display: flex;
+                    <h1 class="fontcolor">
+                        更完美的联机服务
+                    </h1>
+                    <span class="fontcolor">
+                        用技术征服世界
+                    </span>
+                </div>
+                <div>
+                    <img src="./Image/index5.jpg" alt="lianji" style="display: flex;
             width: 560px;
             margin: 15px;">
+                </div>
             </div>
         </div>
     </div>
     <div style="display: flex;
     flex-direction: column;
-    align-items: center;">
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;">
         <div style="display: flex;
         padding: 3px;">
             <div style="margin: 3px;">
-                <a href="https://space.bilibili.com/471856024?spm_id_from=333.337.0.0" target="_blank" rel="noopener noreferrer"
-                style="color: aqua;">
+                <a href="https://space.bilibili.com/471856024?spm_id_from=333.337.0.0" target="_blank"
+                    rel="noopener noreferrer" style="color: aqua;">
                     哔哩哔哩
                 </a>
             </div>
             <div style="margin: 3px;">
-                <a href="./contact.html"
-                style="color: aqua;">
+                <a href="./contact.html" style="color: aqua;">
                     关于我们
                 </a>
             </div>
